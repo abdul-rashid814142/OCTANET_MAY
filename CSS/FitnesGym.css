@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../Image/photo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Amaranth', sans-serif;
+    color: white;
+}
+
+#head-top {
+    /* border: 2px solid white;  */
+    width: 100%;
+    height: 50px;
+}
+
+#head-top li {
+    list-style: none;
+    float: right;
+    padding-right: 50px;
+}
+
+#head-top li a {
+    color: white;
+    text-decoration: none;
+}
+
+#head-top li a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.container {
+    /* border: 2px solid red; */
+    height: 45px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#box1 {
+    /* border: 2px solid rgb(4, 100, 39); */
+    position: absolute;
+    margin-left: 50px;
+}
+
+#box1 a img {
+    width: 80px;
+    filter: invert(100%);
+}
+
+#box1 div {
+    text-align: center;
+    margin-top: -15px;
+    font-size: 16px;
+}
+
+#box2 {
+    /* border: 2px solid rgb(218, 10, 211); */
+    display: block;
+    margin: 0px auto;
+    padding-left: 242px;
+    font-size: 23px;
+}
+
+#box3 {
+    display: none;
+    /* border: 2px solid rgb(156, 218, 10); */
+    position: absolute;
+    right: 30px;
+}
+
+#box2 li {
+    display: inline-block;
+    padding-right: 60px;
+}
+
+#box2 li a {
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+
+#box2 li a:hover {
+    cursor: pointer;
+    color: aqua;
+    text-decoration: underline;
+}
+
+.box {
+    /* border: 2px solid white; */
+    float: right;
+    margin-right: 150px;
+    margin-top: 65px;
+    width: 400px;
+    height: 300px;
+
+}
+
+.box h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.box p {
+    text-align: center;
+    font-size: 22px;
+}
